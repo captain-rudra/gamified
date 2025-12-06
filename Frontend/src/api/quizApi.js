@@ -1,5 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:5000/api", // your backend base URL
+  baseURL: "https://gamified-1.onrender.com/api", // your backend base URL
 });
+
