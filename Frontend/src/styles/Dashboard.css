@@ -1,0 +1,55 @@
+.dashboard-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.reset-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  margin: 10px 0 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #c0392b;
+}
+
+.round-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.round-card {
+  width: 300px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.round-card.unlocked {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.round-card.locked {
+  background-color: #ddd;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.round-card:hover.unlocked {
+  transform: scale(1.03);
+}
+
+.locked-label {
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}

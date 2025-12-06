@@ -1,0 +1,30 @@
+.round-page {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1rem;
+  margin-top: -10px;
+  color: #333;
+}
+
+.stop-container {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stop-container button {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.stop-container button:hover {
+  background-color: #e84118;
+}
